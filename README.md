@@ -1,15 +1,21 @@
 # NSViewMouseHandle
 A NSView category for determine mouse entered or exited in masOS Apps.
 <br />
+<br />
 NSView and subclass of NSView can use it.
+<br />
 <br />
 It's easy to use.
 <br />
+<br />
 Sample Code:
-[button setMouseExited:^{<br />
-       // Your code...<br />
+
+```Obeject-C
+[button setMouseExited:^
+       // Your code...
  }];
- <br />
- [button setMouseEntered:^{<br />
-       // Your code...<br />
+
+ [button setMouseEntered:^{
+       // Your code...
  }];
+ ```
