@@ -12,6 +12,7 @@
 		79A659CE1F49AA6E00E499CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A659CD1F49AA6E00E499CF /* ViewController.m */; };
 		79A659D01F49AA6E00E499CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79A659CF1F49AA6E00E499CF /* Assets.xcassets */; };
 		79A659D31F49AA6E00E499CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79A659D11F49AA6E00E499CF /* Main.storyboard */; };
+		79A659DC1F49AB1600E499CF /* NSView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A659DB1F49AB1600E499CF /* NSView+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		79A659CF1F49AA6E00E499CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79A659D21F49AA6E00E499CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		79A659D41F49AA6E00E499CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79A659DA1F49AB1600E499CF /* NSView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSView+Extension.h"; sourceTree = "<group>"; };
+		79A659DB1F49AB1600E499CF /* NSView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSView+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 				79A659C71F49AA6E00E499CF /* AppDelegate.m */,
 				79A659CC1F49AA6E00E499CF /* ViewController.h */,
 				79A659CD1F49AA6E00E499CF /* ViewController.m */,
+				79A659DA1F49AB1600E499CF /* NSView+Extension.h */,
+				79A659DB1F49AB1600E499CF /* NSView+Extension.m */,
 				79A659CF1F49AA6E00E499CF /* Assets.xcassets */,
 				79A659D11F49AA6E00E499CF /* Main.storyboard */,
 				79A659D41F49AA6E00E499CF /* Info.plist */,
@@ -147,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				79A659CE1F49AA6E00E499CF /* ViewController.m in Sources */,
+				79A659DC1F49AB1600E499CF /* NSView+Extension.m in Sources */,
 				79A659CB1F49AA6E00E499CF /* main.m in Sources */,
 				79A659C81F49AA6E00E499CF /* AppDelegate.m in Sources */,
 			);
