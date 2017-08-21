@@ -1,5 +1,5 @@
 ### English:
-A NSView category for determine mouse entered or exited in masOS Apps.
+A NSView category for determine mouse entered or exited in macOS Apps.
 <br />
 <br />
 NSView and subclass of NSView can use it.
@@ -21,7 +21,7 @@ Sample Code:
  ```
  
  ### 中文：
-这是一个masOS Apps用于检测鼠标进出事件的NSView category。
+这是一个macOS Apps用于检测鼠标进出事件的NSView category。
 <br />
 <br />
 NSView 和 NSView的子类都可以使用。
